@@ -1,0 +1,49 @@
+.x{
+    color:rgb(117, 2, 224)
+}
+
+h2{
+    color: rgb(235, 22, 22);
+    font-style: normal;
+}
+
+p{
+    font-family: cursive;
+    font-style: italic;
+}
+body{
+    width: 85%;
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('../images/person-looking-at-phone-and-at-macbook-pro-1181244.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px black;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background: url('../images/antto26.jpg');
+    border:1px solid black;
+}
+.jumb{
+    background-color: rgba(0, 255, 128, 0.199);
+}
+.Wrapper{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
