@@ -20,7 +20,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.container{
+.container-box2{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,21 +31,6 @@ body{
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0 15px 50px black;
-}
-.circle{
-    width: 200px;
-    height: 200px;
-    background: url('../images/antto26.jpg');
-    border:1px solid black;
-    float: left;
-    shape-outside: circle();
-    margin: 60px 30px 30px 0;
-}
-p{
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    line-height: 22px;
 }
 h1{
     margin: 0 0 20px;
